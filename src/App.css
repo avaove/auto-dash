@@ -1,0 +1,151 @@
+.App {
+  text-align: center;
+  margin: auto;
+  font-family: 'Helvetica', 'Arial', sans-serif !important;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 15vh;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+canvas {
+  display: flex;
+  width:100% !important;
+  height:700px !important;
+  float:left;
+}
+h1 {
+  text-transform: uppercase;
+}
+
+/* metrics */
+.left {
+  display: inline-block;
+  float:left;
+  width: 310px;
+}
+.center {
+  display: inline-block;
+  margin: 0 auto;
+  position: relative;
+  width: 150px;
+}
+.right {
+  display: inline-block;
+  float: right;
+  width: 310px;
+}
+.metrics {
+  justify-content: center;
+  text-align:center;
+  position: relative;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 100px;
+}
+.metricVal {
+  color: #414141 !important;
+  font-size: 55px !important;
+  margin-bottom: 2% !important;
+  font-weight: 900;
+}
+.metricName {
+  color: #808080 !important;
+  font-size: 25px !important;
+  margin: 0 !important;
+}
+
+/* generic styles */
+.pie {
+  margin:0 !important;
+  padding-top:0;
+  padding-bottom:5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.chart {
+  height:1500px !important;
+  width: 80%;
+  position: absolute;
+  left: 10%;
+  right: 20%;
+  /*top: 10vh;
+  padding: 8%;*/
+}
+
+.footer {
+  top: 10vw;
+}
+
+/* specific to each pie chart: discintion not needed anymore */
+.standard, .psExtensionsActive, .extensions, .psExtensionsRetired {
+   height:700px !important;float: right;
+}
+
+/* title and subtitle */
+.title {
+  font-weight: 900;
+  letter-spacing: 5px; line-height: 1;
+  font-size: 30px;
+  color: #4d3333;
+}
+.subtitle {
+  letter-spacing: 1px; line-height: 1;
+  font-size: 20px;
+  color: #808080;
+}
+
+#executionStatus {
+  height: 1500px !important;
+  width: auto !important
+}
+
+/*toggle button*/
+input[type=checkbox]{
+	height: 0;
+	width: 0;
+	visibility: hidden;
+}
+
+label {
+	cursor: pointer;
+	text-indent: -9999px;
+	width: 50px;
+	height: 25px;
+	background: green;
+	display: block;
+	border-radius: 25px;
+	position: relative;
+}
+
+label:after {
+	content: '';
+	position: absolute;
+	top: 1.25px;
+	left: 1.25px;
+	width: 22.5px;
+	height: 22.5px;
+	background: #fff;
+	border-radius: 90px;
+	transition: 0.3s;
+}
+
+input:checked + label {
+	background: #bada55;
+}
+
+input:checked + label:after {
+	left: calc(100% - 2.5px);
+	transform: translateX(-100%);
+}
+
+label:active:after {
+	width: 30px;
+}
+
+.btn-active {
+  color: #3e4444 !important;
+  background-color: #b2ad7f !important;
+}
