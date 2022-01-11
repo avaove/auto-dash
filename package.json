@@ -1,6 +1,6 @@
 {
-  "homepage": "https://avaove.github.io/auto-dashb",
-  "name": "auto-dashboard",
+  "homepage": "https://avaove.github.io/auto-dash",
+  "name": "auto-dash",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

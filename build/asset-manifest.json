@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/auto-dashb/static/css/main.565458f0.chunk.css",
-    "main.js": "/auto-dashb/static/js/main.55fb34f5.chunk.js",
-    "main.js.map": "/auto-dashb/static/js/main.55fb34f5.chunk.js.map",
-    "runtime-main.js": "/auto-dashb/static/js/runtime-main.3075c3d8.js",
-    "runtime-main.js.map": "/auto-dashb/static/js/runtime-main.3075c3d8.js.map",
-    "static/css/2.8c0e6b67.chunk.css": "/auto-dashb/static/css/2.8c0e6b67.chunk.css",
-    "static/js/2.2b32c6c1.chunk.js": "/auto-dashb/static/js/2.2b32c6c1.chunk.js",
-    "static/js/2.2b32c6c1.chunk.js.map": "/auto-dashb/static/js/2.2b32c6c1.chunk.js.map",
-    "static/js/3.67c718e7.chunk.js": "/auto-dashb/static/js/3.67c718e7.chunk.js",
-    "static/js/3.67c718e7.chunk.js.map": "/auto-dashb/static/js/3.67c718e7.chunk.js.map",
-    "index.html": "/auto-dashb/index.html",
-    "static/css/2.8c0e6b67.chunk.css.map": "/auto-dashb/static/css/2.8c0e6b67.chunk.css.map",
-    "static/css/main.565458f0.chunk.css.map": "/auto-dashb/static/css/main.565458f0.chunk.css.map",
-    "static/js/2.2b32c6c1.chunk.js.LICENSE.txt": "/auto-dashb/static/js/2.2b32c6c1.chunk.js.LICENSE.txt"
+    "main.css": "/auto-dash/static/css/main.565458f0.chunk.css",
+    "main.js": "/auto-dash/static/js/main.927f586c.chunk.js",
+    "main.js.map": "/auto-dash/static/js/main.927f586c.chunk.js.map",
+    "runtime-main.js": "/auto-dash/static/js/runtime-main.4ca13307.js",
+    "runtime-main.js.map": "/auto-dash/static/js/runtime-main.4ca13307.js.map",
+    "static/css/2.8c0e6b67.chunk.css": "/auto-dash/static/css/2.8c0e6b67.chunk.css",
+    "static/js/2.91bd8748.chunk.js": "/auto-dash/static/js/2.91bd8748.chunk.js",
+    "static/js/2.91bd8748.chunk.js.map": "/auto-dash/static/js/2.91bd8748.chunk.js.map",
+    "static/js/3.2db01711.chunk.js": "/auto-dash/static/js/3.2db01711.chunk.js",
+    "static/js/3.2db01711.chunk.js.map": "/auto-dash/static/js/3.2db01711.chunk.js.map",
+    "index.html": "/auto-dash/index.html",
+    "static/css/2.8c0e6b67.chunk.css.map": "/auto-dash/static/css/2.8c0e6b67.chunk.css.map",
+    "static/css/main.565458f0.chunk.css.map": "/auto-dash/static/css/main.565458f0.chunk.css.map",
+    "static/js/2.91bd8748.chunk.js.LICENSE.txt": "/auto-dash/static/js/2.91bd8748.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.3075c3d8.js",
+    "static/js/runtime-main.4ca13307.js",
     "static/css/2.8c0e6b67.chunk.css",
-    "static/js/2.2b32c6c1.chunk.js",
+    "static/js/2.91bd8748.chunk.js",
     "static/css/main.565458f0.chunk.css",
-    "static/js/main.55fb34f5.chunk.js"
+    "static/js/main.927f586c.chunk.js"
   ]
 }
